@@ -6,9 +6,7 @@ You must have at least two (2) paragraphs of text based content on at
 least one page.
 a. Full paragraphs are 4-5 sentences in length.-->
 
-<!--the first line of code within angled brackets reveals the following:
-
-<!DOCTYPE html>-->
+<!--Page1-->
 <!DOCTYPE html>
 
 <!--language tag-->
@@ -37,3 +35,4 @@ a. Full paragraphs are 4-5 sentences in length.-->
         QuadraMed Computerized Patient Record (QCPR) system implementation.
     </body>
 </html>
+
