@@ -1,0 +1,91 @@
+/*Requirements:
+Using only HTML 5 and CSS (no JavaScript or other languages):
+You will be building upon your Assignment 1 submission. Make a copy of your
+three (3) page website and style it according to the requirements outlined below.
+1. Every page must be styled using the same external style sheet to provide
+a consistent look and feel across all pages.
+2. The CSS declarations within your style sheet should provide at least three
+(3) distinct differences in how the pages are presented based on the
+screen size. Use media queries to accomplish this.
+3. Use selectors to style all appropriate elements on all pages using CSS.
+a. Each element selected should have at least one property:value pair
+assigned to it. Providing more than one property:value pair for each
+element is encouraged and will be acknowledged as extra effort.
+b. Examples of elements that are not appropriate to apply styles to
+include: doctype, html, head, title, and a few select others. Check
+with your facilitator if you are unsure or if you would like to request a
+rea sonable exception from this requirement.
+4. Be creative or at least show your facilitator that you spent some
+considerable time thinking about and planning out the appearance of your
+website. You could be creative with colors and whitespace, with font types
+and sizes, special alignments and positioning, page layout,
+navigation/menu appearance, etc.
+5. Show us that you know how to use CSS effectively.
+6. You can continue to add additional HTML elements and content if you
+desire, just be sure to style these a s well.
+7. You cannot use a responsive web design framework for this assignment.*/
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 300%;
+  text-shadow: 2px 2px 3px #666666;
+  padding-bottom: 10px;
+}
+h2 {
+  color: blue;
+  font-size: 3.3em;
+  background-color: brown;
+  text-align: left;
+}
+h3 {
+  color: purple;
+  font-family: "Gill Sans", Arial, sans-serif;
+  font-size: 30pt;
+  text-align: center;
+}
+a {
+  color: #FF0099;
+  font-size: 15pt;
+}
+img {
+  width: 200px;
+  height: 150px;
+  border: 1px solid #d6d6d6;
+  object-fit: cover;
+}
+body {
+  background-image: url("Images/snow.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-color: lightsalmon;
+  margin-right: 30px;
+  background-attachment: fixed;
+}
+p {
+  color: darkorchid;
+  font-size: 30pt;
+}
+.dotted{
+    outline-style: groove;
+}
+.username {
+  font-weight: bold;
+}
+.credits {
+  font-family: "Courier New", Courier, monospace;
+}
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+@media all and (max-width: 600px) {
+    p{
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
+@media(min-width:600px) {
+    p{
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
