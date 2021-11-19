@@ -53,7 +53,7 @@ img {
   object-fit: cover;
 }
 body {
-  background-image: url("snow.jpg");
+  background-image: url("Images/snow.jpg");
   background-repeat: no-repeat;
   background-position: right top;
   background-color: lightsalmon;
