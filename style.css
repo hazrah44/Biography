@@ -84,7 +84,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-color: #cccccc;
-  background-image: url("https://media.giphy.com/media/Cv7wrQjYcd6hO/giphy.gif");
+  background-image: url("https://media.giphy.com/media/OkVVUlG40FnuE/giphy.gif");
 }
 .id {
   color: #20303c;
@@ -120,6 +120,10 @@ div {
     top: 200px;
   }
 }
+iframe {
+  width: "351";
+  height: "480";
+}
 .credits {
   font-family: "Courier New", Courier, monospace;
 }
@@ -142,5 +146,4 @@ nav ul {
     line-height: 1.5;
   }
 }
-
 
