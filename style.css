@@ -81,7 +81,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  background-color: lightskyblue;
+  background-color: #cccccc;
+  background-image: url("https://media.giphy.com/media/Cv7wrQjYcd6hO/giphy.gif");
 }
 .id {
   color: #20303c;
@@ -117,3 +118,4 @@ nav ul {
     line-height: 1.5;
   }
 }
+
