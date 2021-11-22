@@ -64,8 +64,10 @@ a {
 }
 img {
   width: 400px;
-  height: 400px;
-  object-fit: fill;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 i {
   display: inline;
@@ -99,12 +101,34 @@ p {
 .username {
   font-weight: bold;
 }
+.title {
+  font-size: 10rem;
+}
+div {
+  width: 100px;
+  height: 50px;
+  background: hotpink;
+  position: relative;
+  animation: mymove 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
+}
 .credits {
   font-family: "Courier New", Courier, monospace;
 }
 nav ul {
   margin: 0px;
   padding: 5px 0px 5px 30px;
+}
+.class {
+  margin: 10rem;
 }
 @media all and (max-width: 600px) {
   p {
@@ -118,4 +142,5 @@ nav ul {
     line-height: 1.5;
   }
 }
+
 
