@@ -37,7 +37,7 @@ h1 {
 h2 {
   color: #ff0099;
   font-size: 3.3em;
-
+  margin: 20px 0 0 0;
   text-align: left;
 }
 h3 {
@@ -54,7 +54,7 @@ a {
   color: red;
 }
 :visited {
-  color: green;
+  color: white;
 }
 :hover {
   color: hotpink;
@@ -63,11 +63,16 @@ a {
   color: blue;
 }
 img {
-  width: 400px;
-  height: 500px;
-  background-position: center;
+  width: 50%;
+  height: auto;
   background-size: cover;
-  position: relative;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  display: block;
+  opacity: 0.5;
+  filter: sepia(100%);
 }
 i {
   display: inline;
@@ -84,7 +89,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-color: #cccccc;
-  background-image: url("https://media.giphy.com/media/OkVVUlG40FnuE/giphy.gif");
+  background-image: url("https://media.giphy.com/media/JmbbuW8MeuHlDenW3K/giphy.gif");
 }
 .id {
   color: #20303c;
@@ -94,6 +99,8 @@ p {
   color: #ff0099ff;
   text-align: center;
   font-size: 30em;
+  margin: auto;
+  width: 300px;
 }
 .dotted {
   outline-style: groove;
@@ -120,16 +127,13 @@ div {
     top: 200px;
   }
 }
-iframe {
-  width: "351";
-  height: "480";
-}
 .credits {
   font-family: "Courier New", Courier, monospace;
 }
 nav ul {
-  margin: 0px;
-  padding: 5px 0px 5px 30px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 .class {
   margin: 10rem;
@@ -146,4 +150,3 @@ nav ul {
     line-height: 1.5;
   }
 }
-
