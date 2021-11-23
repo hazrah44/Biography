@@ -46,6 +46,9 @@ h3 {
   font-size: 30pt;
   text-align: center;
 }
+th {
+  color: white;
+}
 a {
   color: #ff0099;
   font-size: 15pt;
