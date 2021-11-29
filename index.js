@@ -53,3 +53,6 @@ function greetUser() {
   }
   document.getElementById("demo").innerHTML = txt;
 }
+function validateForm{
+  
+}
