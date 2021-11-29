@@ -1,6 +1,6 @@
 //Welcomes the visitor with an alert
 //declared a function named greetUser()
-console.log (hello);
+console.log(hello);
 function greetUser() {
   alert("WELCOME TO YOUR ALERT BOX!!!!!");
   //   Prompts the visitor for his/her name
@@ -53,6 +53,36 @@ function greetUser() {
   }
   document.getElementById("demo").innerHTML = txt;
 }
-function validateForm{
-  
+function validateForm() {
+  var firstName = document.getElementById("firstName");
+  if (firstName.value.length <= 2) {
+    alert("Sorry! Last name must contain two (2) or more characters.");
+    prompt('Please try again');
+    firstName.focus();
+    return false;
+  } else {
+    return true;
+  }
+}
+function validateForm() {
+  var lastName = document.getElementById("lastName");
+  if (lastName.value.length <= 2) {
+    alert("Sorry! Last name must contain two (2) or more characters.");
+    prompt('Please try again');
+    lastName.focus();
+    return false;
+  } else {
+    return true;
+  }
+}
+function validateForm() {
+  var firstName = document.getElementById("facilitator");
+  if (firstName.value.length <= 2) {
+    alert("Sorry! Last name must contain two (2) or more characters.");
+    prompt('Please try again');
+    firstName.focus();
+    return false;
+  } else {
+    return true;
+  }
 }
