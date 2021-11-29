@@ -54,7 +54,7 @@ function greetUser() {
   document.getElementById("demo").innerHTML = txt;
 }
 function validateForm() {
-  var firstName = document.getElementById("firstName");
+  var firstName = document.getElementById("firstName").value;
   if (firstName.value.length <= 2) {
     alert("Sorry! Last name must contain two (2) or more characters.");
       firstName.focus();
