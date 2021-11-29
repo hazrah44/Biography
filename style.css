@@ -116,10 +116,6 @@ p {
 div {
   width: 100px;
   height: 50px;
-  background: hotpink;
-  position: relative;
-  animation: mymove 2s;
-  animation-iteration-count: infinite;
 }
 @keyframes mymove {
   from {
