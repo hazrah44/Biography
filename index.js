@@ -53,11 +53,14 @@ function greetUser() {
   }
   document.getElementById("demo").innerHTML = txt;
 }
+//a. Validate both firstName and lastName to ensure:
+//i. a minimum length of two (2) characters
 function validateForm() {
-  var firstName = document.getElementById("firstName").value;
-    if (firstName.value.length <= 2) {
+  var firstName = document.getElementById("firstName");
+  var lastName = document.getElementById("lastName");
+    if (firstName.value.length <= 2 || lastName.value.length <=2) {
     alert("Sorry! Last name must contain two (2) or more characters.");
-      firstName.focus();
+  
     return false;
   }  else {
     return true;
