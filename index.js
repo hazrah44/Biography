@@ -54,35 +54,13 @@ function greetUser() {
   document.getElementById("demo").innerHTML = txt;
 }
 function validateForm() {
-  var firstName = document.getElementById("firstName");
-  if (firstName.value.length <= 2) {
-    alert("Sorry! Last name must contain two (2) or more characters.");
-    prompt('Please try again');
-    firstName.focus();
-    return false;
-  } else {
-    return true;
-  }
-}
-function validateForm() {
   var lastName = document.getElementById("lastName");
   if (lastName.value.length <= 2) {
     alert("Sorry! Last name must contain two (2) or more characters.");
     prompt('Please try again');
     lastName.focus();
     return false;
-  } else {
-    return true;
-  }
-}
-function validateForm() {
-  var firstName = document.getElementById("facilitator");
-  if (firstName.value.length <= 2) {
-    alert("Sorry! Last name must contain two (2) or more characters.");
-    prompt('Please try again');
-    firstName.focus();
-    return false;
-  } else {
+  }  else {
     return true;
   }
 }
