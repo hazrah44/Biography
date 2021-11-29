@@ -1,5 +1,6 @@
 //Welcomes the visitor with an alert
 //declared a function named greetUser()
+console.log (hello);
 function greetUser() {
   alert("WELCOME TO YOUR ALERT BOX!!!!!");
   //   Prompts the visitor for his/her name
