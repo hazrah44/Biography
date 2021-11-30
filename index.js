@@ -59,7 +59,6 @@ function greetUser() {
 function validateForm() {
   var firstName = document.getElementById("firstName");
   var lastName = document.getElementById("lastName");
- 
   if (firstName.value.length <= 2 || lastName.value.length <= 2) {
     alert("A minimum length of two (2) characters");
     return false;
@@ -79,3 +78,16 @@ function validateForm() {
  alert("Active Facilitator");
 // Change heading:
 document.getElementById("myH").innerHTML = "My Website";}
+// Wait for the page to load completely, then find the HTML button
+//and attach an event handler to it that will result in
+// a JavaScript alert being generated when the button is Clicked
+
+// When the entire page is loaded
+window.onload = function() {
+ var clickMeButton = document.getElementById('clickme’);
+ clickMeButton.onclick = youClicked;
+}
+// Function that will run when the button is clicked
+ function youClicked() {
+ alert("You clicked!");
+}
