@@ -58,11 +58,26 @@ function greetUser() {
 function validateForm() {
   var firstName = document.getElementById("firstName");
   var lastName = document.getElementById("lastName");
-    if (firstName.value.length <= 2 || lastName.value.length <=2) {
+  if (firstName.value.length <= 2 || lastName.value.length <= 2) {
+    alert("Sorry! First name must contain two (2) or more characters.");
     alert("Sorry! Last name must contain two (2) or more characters.");
-  
     return false;
-  }  else {
+  } else {
     return true;
   }
 }
+function allLetter(inputtxt)
+      { 
+      var letters = /^[A-Za-z]+$/;
+      if(inputtxt.value.match(letters))
+      {
+      alert('Your name have accepted : you can try another');
+      return true;
+      }
+      else
+      {
+      alert('Please input alphabet characters only');
+      return false;
+      }
+      }
+	  
