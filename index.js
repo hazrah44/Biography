@@ -71,16 +71,11 @@ function validateForm() {
 //semester. For example, if we have facilitators with the following first
 //names: “Laura”, “Fazil”, and “Harsh”, you would ensure that only
 //these values would pass validation
-  const facilitatorName = document.getElementById("facilitator");
-  if (firstName.text !=fazil) {
-    alert("Wrong Facilitator");
-    return false;
-  } else {
-    return true;
-  }
-document.getElementById("demo").innerHTML = facilitatorName;
-}
+  const facilitator1=Laura;
+  const facilitator2=Fazil;
+  const facilitator3=Harsh;
+  document.getElementById("facilitator").innerHTML =
+  "An active professor is: " + facilitator2;
+ alert("Active Facilitator");
 // Change heading:
-document.getElementById("myH").innerHTML = "My Website";
-// Change paragraph:
-document.getElementById("myP").innerHTML = 'Logic will get you from A to Z; imagination will get you everywhere by Albert Einstein';
+document.getElementById("myH").innerHTML = "My Website";}
