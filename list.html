@@ -1,26 +1,36 @@
 <!--Requirements:
-You will create a three (3) page web site incorporating what you have learned
-about HTML 5 this week. The focus of the site should be about you. Think of this
-as a biography that will grow into a larger project, a portfolio (term project). Your
-site can have an alternate topic/focus if approved in advance by your facilitator.
-Here are the specific requirements:
-1. You must have at least two (2) paragraphs of text based content on at
-least one page.
-a. Full paragraphs are 4-5 sentences in length.
-2. You must provide at least one (1) external hyperlink to a publicly hosted
-website(s) on at least one page.
-a. You can choose to link to your work, your home town, hobbies,
-interests, etc.
-3. You must use the new HTML5 structural elements on every page.
-a. You can use the same image on every page, but if you do, that will
-only count as having one image on one page. Add an additional
-image(s) to the other pages to meet the requirement.
-7. Create a consistent menu/navigation bar that is used on all pages and
-contain links to the other pages.
-b. You may use a list for navigational/menu purposes. The list could
-then be styled with CSS as part of next week’s assignment.
-a. You are encouraged to use HTML 5 video/audio elements, but you
-can alternatively embed a YouTube video if you desire.-->
+Using HTML 5, CSS, and JavaScript (no other languages):
+1. Create an HTML form with the following form controls:
+a. text input field with a name and id value of: “firstName” (required)
+i. When you submit the form: enter your first name here
+b. text input field with a name and id value of: “lastName” (required)
+i. When you submit the form: enter your last name here
+c. text input field with a name and id of: “facilitator” (required)
+
+d. a group of radio buttons with your choice of options
+e. a group of check boxes with your choice of values
+f. Style the page with CSS using an external style sheet.
+g. The form action should point to http://bucs601.com/submit.php
+using the POST method.
+2. Use HTML and JavaScript to perform client-side validation based on the
+following specifications:
+a. Validate both firstName and lastName to ensure:
+i. a minimum length of two (2) characters
+ii. that only alpha characters are used (A-Z and a-z)
+b. Validate facilitator and constrain the possible valid values to
+be those of the active facilitators for the course during this
+semester. For example, if we have facilitators with the following first
+names: “Laura”, “Fazil”, and “Harsh”, you would ensure that only
+these values would pass validation
+i. Laura OR Fazil OR Harsh
+c. facilitator is a text input, don’t change this into a select or any
+other type of input.
+d. The form should not be permitted to submit unless all fields pass
+validation.
+When you submit your form, you will be taken to a page and you will be able to
+see if your form submission went through successfully or if there was a problem
+that needs to be fixed first. The first three field values (firstName, lastName,
+and facilitator) that you enter will be recorded in a database-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
