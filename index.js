@@ -58,26 +58,18 @@ function greetUser() {
 function validateForm() {
   var firstName = document.getElementById("firstName");
   var lastName = document.getElementById("lastName");
+  const facilitatorName = document.getElementById("facilitator");
   if (firstName.value.length <= 2 || lastName.value.length <= 2) {
-    alert("Sorry! First name must contain two (2) or more characters.");
-    alert("Sorry! Last name must contain two (2) or more characters.");
+    alert("A minimum length of two (2) characters");
     return false;
   } else {
     return true;
   }
+  //Validate facilitator and constrain the possible valid values to
+//be those of the active facilitators for the course during this
+//semester. For example, if we have facilitators with the following first
+//names: “Laura”, “Fazil”, and “Harsh”, you would ensure that only
+//these values would pass validation
+  const facilitatorName = 'Fazil'
+document.getElementById("demo").innerHTML = facilitatorName;
 }
-function allLetter(inputtxt)
-      { 
-      var letters = /^[A-Za-z]+$/;
-      if(inputtxt.value.match(letters))
-      {
-      alert('Your name have accepted : you can try another');
-      return true;
-      }
-      else
-      {
-      alert('Please input alphabet characters only');
-      return false;
-      }
-      }
-	  
