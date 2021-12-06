@@ -38,10 +38,10 @@ h2 {
 }
 
 th {
-  color: white;
+  color: dar cadetblue;
 }
 a {
-  color: #ff0099;
+  color: black;
   font-size: 15pt;
 }
 :link {
@@ -51,7 +51,7 @@ a {
   color: black;
 }
 :hover {
-  color: hotpink;
+  color: black;
 }
 :active {
   color: blue;
