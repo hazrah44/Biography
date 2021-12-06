@@ -15,37 +15,3 @@
     }
   ]
 }
-var styles = {
-  "#textContainer": {
-    "border": "blue solid 2px;",
-    "background-color": "#ff0;"
-  },
-  "#textContainer > button": {
-    "color": "#f00"
-  }
-};
-
-
-var newStyle = document.createElement('style');
-newStyle.type = "text/css";
-
-newStyle.appendChild(document.createTextNode(getCSS()));
-document.querySelector("#textContainer").appendChild(newStyle);
-
-function getCSS() {
-  var css = [];
-  for (let selector in styles) {
-    console.log(">> Selector >> ", selector, JSON.stringify(styles[selector]));
-    var nest = [];
-    for (let prop in styles[selector]) {
-      nest.push(prop + ":" + JSON.stringify(styles[selector][prop]));
-    }
-    css.push(selector + " " + JSON.stringify(styles[selector]));
-  }
-
-  var cssStr = css.join("\n");
-  cssStr = cssStr.replace(/["]/g, "");
-  console.log("-------------------------------------------------");
-  console.log(cssStr);
-  return cssStr;
-}
