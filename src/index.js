@@ -93,5 +93,3 @@ async function getDegrees(url) {
 
 getDegrees("./src/degrees.json");
 
-document.getElementById("p2").style.color = "blue";
-
