@@ -1,4 +1,4 @@
-//Part 1 – JSON (25 Points)
+/*Part 1 – JSON (25 Points)
 Requirements:
 1. Create an JSON document:
 a. You will be storing information about your college degrees earned
@@ -43,7 +43,7 @@ iv. Process the returned JSON data using JavaScript
 
 3. Upload your JavaScript program to the same directory on the webserver
 where your JSON file resides.
-4. Run your program and verify it works as outlined above.//
+4. Run your program and verify it works as outlined above.*/
 {
   "data": [
     {
