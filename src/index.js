@@ -78,7 +78,8 @@ function validateForm() {
  alert("Active Facilitator");
 // Change heading:
 document.getElementById("myH").innerHTML = "My Website";}
-//Assignment 5 - Part 1
+
+//Assignment 5 - Part 2
 async function getDegrees(url) {
   // fetch the url
   await fetch(url)
