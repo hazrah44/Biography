@@ -93,4 +93,5 @@ async function getDegrees(url) {
 }
 
 getDegrees("./src/degrees.json");
-
+import sheet fom './style.css assert {type: css};
+document.adoptedStyleSheets = [sheet];
