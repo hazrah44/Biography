@@ -15,3 +15,5 @@
     }
   ]
 }
+import sheet fom './style.css assert {type: css};
+document.adoptedStyleSheets = [sheet];
